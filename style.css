@@ -21,9 +21,6 @@ body{
     font-weight: 700px;
 
 }
-#lorem-ipsum{
-    background-color: rgba(0, 0, 0, 0.2);
-}
 #donate-tab{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
