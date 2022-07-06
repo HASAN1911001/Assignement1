@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+.header{
+    font-size: 50px;
+}
 #bannar{
     height: 600px; 
     background-image: url(images/donation13.jpg);
@@ -36,11 +39,29 @@ body{
 }
 #ammount{
     display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+
 }
 .tk{
-    margin: 30px;
-    background-color:aqua;
-    padding: 30px;
+    width: 20%;
+    height: 60px;
+    margin: 20px;
+    background-color:azure;
+    padding: 20px;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 18px;
+    font-weight:700px;
+}
+#tk200{
+    color: red;
+    border: 1px solid red;
+    background-color:bisque
+}
+#hr{
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 #our-donate-plan{
@@ -48,17 +69,36 @@ body{
     margin-bottom: 80px;
 }
 #food-shelter-education{
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
 }
 #food{
-    margin: 10px;
-    background-color: antiquewhite;
-}
-#shelter{
+    text-align: left;
+    padding-top:50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 10px;
     background-color: azure;
+
+}
+#shelter{
+    text-align: left;
+    padding-top:50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    background-color:rgb(249, 220, 225)
+ 
 }
 #education{
+    text-align: left;
+    padding-top:50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 10px;
     background-color:blanchedalmond
 }
