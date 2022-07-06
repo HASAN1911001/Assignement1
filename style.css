@@ -52,8 +52,14 @@ body{
     padding: 20px;
     text-align: center;
     padding-top: 45px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight:700px;
+}
+#hr input{
+    border-width:0px;
+    border:none;
+    outline:none;
+    font-size: 20px;
 }
 
 #tk200{
@@ -61,6 +67,7 @@ body{
     border: 1px solid red;
     background-color:bisque
 }
+
 #hr{
     margin-left: 300px;
     margin-right: 300px;
@@ -105,6 +112,47 @@ body{
    background-color:blanchedalmond
 }
 
+
+#bonus{
+    display:flex;
+    margin-bottom: 80px;
+}
+#bonus div{
+    width: 50%;
+    padding-left: 10%;
+}
+#bonus img{
+    width: 80%;
+    margin-top: 8%;
+    border-radius: 5px;
+}
+
+
+#outer-div{
+    margin:auto;
+    height: 200px;
+    width: 1000px;
+    background-color: antiquewhite;
+    display: flex;
+}
+#inner-div{
+    margin: auto;
+}
+#email{
+    padding: 10px 10px 10px 5px;
+    width: 400px;
+    background-color: aliceblue;
+    border-width:0px;
+    border:none;
+    outline:none;
+}
+#submit{
+    padding: 9px 30px;
+    background-color: tomato;
+    border-color: tomato;
+}
+
+
 footer{
     text-align: center;
     background-color: black;
@@ -114,54 +162,9 @@ footer{
 }
 footer h2{
     font-family: 'Lobster', cursive;
+    color: red;
 }
 #get-my-updates{
     text-align: center;
     margin-bottom: 100px;
-}
-#outer-div{
-    margin:auto;
-    height: 100px;
-    width: 500px;
-    background-color: antiquewhite;
-    display: flex;
-}
-#inner-div{
-    display: flex;
-    margin: auto;
-}
-#inner-div1{
-    padding: 3px 200px 3px 3px;
-    background-color:aliceblue;
-}
-#inner-div2{
-    padding: 3px 20px 3px 20px;
-    background-color: tomato;
-}
-
-#bonus1{
-    display:flex;
-    margin-bottom: 80px;
-}
-#bonus1 div{
-    width: 50%;
-    padding-left: 10%;
-}
-#bonus1 img{
-    width: 80%;
-    margin-top: 8%;
-    border-radius: 5px;
-}
-#bonus2{
-    display:flex;
-    margin-bottom: 80px;
-}
-#bonus2 div{
-    width: 50%;
-    padding-left: 10%;
-}
-#bonus2 img{
-    width: 80%;
-    margin-top: 8%;
-    border-radius: 5px;
 }
