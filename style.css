@@ -40,13 +40,14 @@ body{
 }
 #ammount{
     display: flex;
-    margin-left:auto;
+    margin-left: 20%;
+    margin-right: 20%;
 
 }
 .tk{
     width: 20%;
     height: 60px;
-    margin: 20px;
+    margin: 2%;
     background-color:azure;
     padding: 20px;
     text-align: center;
@@ -54,6 +55,7 @@ body{
     font-size: 18px;
     font-weight:700px;
 }
+
 #tk200{
     color: red;
     border: 1px solid red;
@@ -78,7 +80,7 @@ body{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 10px;
+    margin-left: 10%;
     background-color: azure;
 
 }
@@ -88,7 +90,8 @@ body{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
     background-color:rgb(249, 220, 225)
  
 }
@@ -98,14 +101,16 @@ body{
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 10px;
-    background-color:blanchedalmond
+    margin-right: 10%;
+   background-color:blanchedalmond
 }
 
 footer{
     text-align: center;
     background-color: black;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 footer h2{
     font-family: 'Lobster', cursive;
@@ -138,13 +143,25 @@ footer h2{
     display:flex;
     margin-bottom: 80px;
 }
+#bonus1 div{
+    width: 50%;
+    padding-left: 10%;
+}
 #bonus1 img{
-    width: 100%;
+    width: 80%;
+    margin-top: 8%;
+    border-radius: 5px;
 }
 #bonus2{
     display:flex;
     margin-bottom: 80px;
 }
+#bonus2 div{
+    width: 50%;
+    padding-left: 10%;
+}
 #bonus2 img{
-    width: 100%;
+    width: 80%;
+    margin-top: 8%;
+    border-radius: 5px;
 }
