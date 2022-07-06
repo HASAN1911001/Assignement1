@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     padding: 1px;
     opacity: .8;
+    margin-bottom: 80px;
 }
 #header{
 
@@ -28,4 +29,42 @@ body{
     color: white;
     border-radius: 5px;
     font-weight: 700px;
+}
+#donate-today{
+    text-align: center;
+    margin-bottom: 80px;
+}
+#ammount{
+    display: flex;
+}
+.tk{
+    margin: 30px;
+    background-color:aqua;
+    padding: 30px;
+}
+
+#our-donate-plan{
+    text-align: center;
+    margin-bottom: 80px;
+}
+#food-shelter-education{
+    display: flex;
+}
+#food{
+    margin: 10px;
+    background-color: antiquewhite;
+}
+#shelter{
+    margin: 10px;
+    background-color: azure;
+}
+#education{
+    margin: 10px;
+    background-color:blanchedalmond
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
